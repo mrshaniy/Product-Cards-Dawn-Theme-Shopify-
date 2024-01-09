@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.nws-pdp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.nws-pdp-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.nws-custom-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: block;
+}
+.nws-section-heading {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+.nws-section-desc {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 12px auto 25px auto;
+    display: block
+}
+.nws-section-desc p {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+.nws-pdp-card-w {
+    width: 100%;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+.nws-inner-padding {
+    padding: 20px;
+}
+.nws-pdp-pre-lbl {
+    font-size: 14px;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.nws-pdp-title {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: Barlow Condensed,sans-serif;
+    line-height: 1;
+    font-weight: 600;
+}
+.nws-pdp-price-group {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Barlow Condensed,sans-serif;
+    text-align: center;
+    line-height: normal;
+}
+.nws-pdp-sale-price {
+    text-decoration: none;
+}
+.nws-pdp-compare-price {
+    font-size: 18px;
+    top: -0.3em;
+}
+.nws-border-top.nws-inner-padding {
+    border-top: 1px solid #000;
+}
+.nws-per-day-charge {
+    font-size: 18px;
+    font-family: Barlow Condensed,sans-serif;
+    background: #828282;
+    color: #fff;
+    font-weight: 400;
+    padding: 6px;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1;
+    margin-top: 12px;
+}
+.nws-product-card button.product-form__submit:after {
+    display: none;
+}
+.nws-product-card button.product-form__submit {
+    border-radius: 4px;
+    background: #000;
+    border: 1px solid #000;
+}
+.nws-product-card button.product-form__submit:hover {
+    background: transparent;
+    color: #000;
+}
+.nws-pdp-card-shipping-text {
+    font-size: 18px;
+    font-family: Barlow Condensed,sans-serif;
+    text-align: center;
+    color: #000;
+    line-height: 1;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+}
+.nws-pdp-save {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 4px auto auto;
+    line-height: 1;
+}
+@media screen and (max-width: 767px) {
+  .nws-pdp-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nws-pdp-grid {
+    grid-template-columns: 1fr;
+  }
+}
